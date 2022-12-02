@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BMI Calculator</title>
+
+    <!--import font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="styles/css/style.css" />
+
+    <!-- import the webpage's javascrip -->
+    <script src="script.js" defer></script>
+  </head>
+
+  <body>
+    <main class="container">
+      <div class="flex-box margin-top90">
+        <div class="header">
+          <img src="assets/bmi-img.png" alt="" />
+        </div>
+        <div id="calculatorBox" class="calculator__container">
+          <h1 class="title">Calculate Your BMI</h1>
+          <div class="inputs">
+            <label for="inputHeight">Height (CM)</label>
+            <input
+              type="number"
+              id="height"
+              placeholder="Enter your height"
+              name="height"
+            />
+            <label for="inputWeight">Weight (KG)</label>
+            <input
+              type="number"
+              id="weight"
+              placeholder="Enter your weight"
+              name="weight"
+            />
+            <p id="warning" class="warning__message"></p>
+          </div>
+          <div class="buttons">
+            <button id="calculate" class="btn btn__primary">Calculate</button>
+            <button id="clear" class="btn btn__secondary">Clear</button>
+          </div>
+
+          <div class="output margin-top40">
+            <div class="bmi__output">
+              <p id="result"></p>
+              <p id="status" class="status"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

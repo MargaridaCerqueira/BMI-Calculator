@@ -1,0 +1,21 @@
+//colors
+$bg-color: #fefcf3;
+$primary: #525252;
+$primary-light: #f0dbdb;
+$white: #ffffff;
+$greyLight-1: #e4ebf5;
+$greyLight-2: #c8d0e7;
+$greyLight-3: #bec8e4;
+$greyDark: #9baacf;
+
+//shadows
+$shadow: 0.2rem 0.2rem 0.5rem $greyLight-2, -0.1rem -0.1rem 0.5rem $white;
+$inner-shadow: inset 0.1rem 0.1rem 0.5rem $greyLight-2,
+  inset -0.1rem -0.1rem 0.5rem $white;
+
+//breakpoints
+$breakpoints: (
+  phone: 640px,
+  tablet: 768px,
+  desktop: 1024px,
+) !default;

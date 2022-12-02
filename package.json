@@ -1,0 +1,14 @@
+{
+  "name": "imc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "scss": "sass --watch styles/scss/index.scss styles/css/style.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.52.2"
+  }
+}
