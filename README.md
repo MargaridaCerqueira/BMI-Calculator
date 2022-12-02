@@ -1,4 +1,3 @@
-https://media.giphy.com/media/l44Qj5UpKZaR5jrPy/giphy.gif
 
 
 # BMI Calculator
