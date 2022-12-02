@@ -1,4 +1,4 @@
-![](https://github.com/Your_Repository_Name/scale.gif)
+![](https://github.com/BMI-Calculator/scale.gif)
 
 # BMI Calculator
 
