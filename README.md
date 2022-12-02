@@ -1,5 +1,4 @@
-<iframe src="https://giphy.com/embed/l44Qj5UpKZaR5jrPy" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/loop-scale-weight-l44Qj5UpKZaR5jrPy">via GIPHY</a></p>
-
+https://media.giphy.com/media/l44Qj5UpKZaR5jrPy/giphy.gif
 
 
 # BMI Calculator
